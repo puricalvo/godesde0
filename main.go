@@ -1,9 +1,7 @@
 package main
 
 import (
-	"fmt"
-
-	"github.com/puricalvo/godesde0/ejercicios"
+	"github.com/puricalvo/godesde0/files"
 )
 
 func main() {
@@ -23,10 +21,24 @@ func main() {
 		fmt.Println("Esto es Darwin")
 	default:
 		fmt.Printf("%s \n", os)
-		
-	} */
+
+	}
 
 	numero, texto := ejercicios.ConvertirStringaNumero("500")
 	fmt.Println(numero)
 	fmt.Println(texto)
+
+
+	teclado.IngresoNumeros()
+	*/
+
+	//iteraciones.Iterar()
+	//fmt.Println(ejercicios.IngresoNumeroParaMultiplicar()) 
+	
+	//files.GrabaTabla()
+
+	//files.SumaTabla()
+
+	files.LeoArchivo()
+
 }
