@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/puricalvo/godesde0/files"
+	"github.com/puricalvo/godesde0/funciones"
 )
 
 func main() {
@@ -33,12 +33,16 @@ func main() {
 	*/
 
 	//iteraciones.Iterar()
+	
 	//fmt.Println(ejercicios.IngresoNumeroParaMultiplicar()) 
 	
 	//files.GrabaTabla()
 
 	//files.SumaTabla()
 
-	files.LeoArchivo()
+	//files.LeoArchivo()
+
+	// funciones.Calculos()
+	funciones.LlamarClosure()
 
 }
