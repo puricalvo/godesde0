@@ -26,7 +26,7 @@ func main() {
 		
 	} */
 
-	numero, texto := ejercicios.PrimerEjercicio("500")
+	numero, texto := ejercicios.ConvertirStringaNumero("500")
 	fmt.Println(numero)
 	fmt.Println(texto)
 }

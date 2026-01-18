@@ -4,7 +4,7 @@ import (
 	"strconv"
 )
 
-func PrimerEjercicio(texto string) (int, string) {
+func ConvertirStringaNumero(texto string) (int, string) {
 	numero, err := strconv.Atoi(texto)
 	if err != nil{
 		return 0, "Hubo un error en el mensaje" + err.Error()
