@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/puricalvo/godesde0/ejer_interfaces"
+	e "github.com/puricalvo/godesde0/ejer_interfaces"
 	"github.com/puricalvo/godesde0/modelos"
 )
 
@@ -60,9 +60,9 @@ func main() {
 	// users.AltaUsuario()
 
 	Pedro := new(modelos.Hombre)
-	ejer_interfaces.HumanosRespirando(Pedro)
+	e.HumanosRespirando(Pedro)
 
 	Maria := new(modelos.Mujer)
-	ejer_interfaces.HumanosRespirando(Maria)
+	e.HumanosRespirando(Maria)
 
 }
