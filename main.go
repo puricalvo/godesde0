@@ -1,7 +1,8 @@
 package main
 
 import (
-	"github.com/puricalvo/godesde0/users"
+	"github.com/puricalvo/godesde0/ejer_interfaces"
+	"github.com/puricalvo/godesde0/modelos"
 )
 
 func main() {
@@ -56,6 +57,12 @@ func main() {
 
 	// mapas.Mostrarmapas()
 
-	users.AltaUsuario()
+	// users.AltaUsuario()
+
+	Pedro := new(modelos.Hombre)
+	ejer_interfaces.HumanosRespirando(Pedro)
+
+	Maria := new(modelos.Mujer)
+	ejer_interfaces.HumanosRespirando(Maria)
 
 }
