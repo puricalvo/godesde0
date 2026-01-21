@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/puricalvo/godesde0/mapas"
+	"github.com/puricalvo/godesde0/users"
 )
 
 func main() {
@@ -54,6 +54,8 @@ func main() {
 
 	// arreglos_slices.Capacidad()
 
-	mapas.Mostrarmapas()
+	// mapas.Mostrarmapas()
+
+	users.AltaUsuario()
 
 }
