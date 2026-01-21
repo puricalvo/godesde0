@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/puricalvo/godesde0/funciones/arreglos_slices"
+	"github.com/puricalvo/godesde0/mapas"
 )
 
 func main() {
@@ -52,6 +52,8 @@ func main() {
 
 	//arreglos_slices.MuestroSlice()
 
-	arreglos_slices.Capacidad()
+	// arreglos_slices.Capacidad()
+
+	mapas.Mostrarmapas()
 
 }
