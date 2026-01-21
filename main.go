@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/puricalvo/godesde0/funciones"
+	"github.com/puricalvo/godesde0/funciones/arreglos_slices"
 )
 
 func main() {
@@ -42,7 +42,16 @@ func main() {
 
 	//files.LeoArchivo()
 
-	// funciones.Calculos()
-	funciones.LlamarClosure()
+	//funciones.Calculos()
+
+	//funciones.LlamarClosure()
+
+	//funciones.Exponencia(2)
+
+	//arreglos_slices.MuestroArreglos()
+
+	//arreglos_slices.MuestroSlice()
+
+	arreglos_slices.Capacidad()
 
 }
