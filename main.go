@@ -1,9 +1,8 @@
 package main
 
 import (
-	"fmt"
+	"github.com/puricalvo/godesde0/webserver"
 
-	"github.com/puricalvo/godesde0/goroutines"
 )
 
 func main() {
@@ -70,14 +69,16 @@ func main() {
 
 	// d.EjemploPanic()
 
-	canal1 := make(chan bool)
+	/* canal1 := make(chan bool)
 	go goroutines.MiNombrelento("Puri Calvo", canal1)
 	defer func(){ 
 		<-canal1 
 	}()
-	fmt.Println("Estoy aquí")
+	fmt.Println("Estoy aquí") */
 
-	
+	// webserver.MiWebServer()
+
+	webserver.MiWebServer()
 	
 
 }
