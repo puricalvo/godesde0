@@ -1,8 +1,9 @@
 package main
 
 import (
-	e "github.com/puricalvo/godesde0/ejer_interfaces"
-	"github.com/puricalvo/godesde0/modelos"
+	"fmt"
+
+	"github.com/puricalvo/godesde0/goroutines"
 )
 
 func main() {
@@ -59,10 +60,20 @@ func main() {
 
 	// users.AltaUsuario()
 
-	Pedro := new(modelos.Hombre)
+	/* Pedro := new(modelos.Hombre)
 	e.HumanosRespirando(Pedro)
 
 	Maria := new(modelos.Mujer)
-	e.HumanosRespirando(Maria)
+	e.HumanosRespirando(Maria) */
+
+	// d.VemosDefer()
+
+	// d.EjemploPanic()
+
+	go goroutines.MiNombrelento("Puri Calvo")
+
+	fmt.Println("Estoy aquí")
+	var x string
+	fmt.Scanln(&x)
 
 }
