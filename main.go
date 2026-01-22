@@ -70,10 +70,14 @@ func main() {
 
 	// d.EjemploPanic()
 
-	go goroutines.MiNombrelento("Puri Calvo")
-
+	canal1 := make(chan bool)
+	go goroutines.MiNombrelento("Puri Calvo", canal1)
+	defer func(){ 
+		<-canal1 
+	}()
 	fmt.Println("Estoy aquí")
-	var x string
-	fmt.Scanln(&x)
+
+	
+	
 
 }
